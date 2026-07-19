@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" role="img" aria-labelledby="title desc">
+  <title id="title">Examples of computational textual connections</title>
+  <desc id="desc">Three concise examples linking Baishi Liutie entries to related lines from Bai Juyi's poems.</desc>
+
+  <defs>
+    <filter id="cardShadow" x="-10%" y="-20%" width="120%" height="145%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#b4a98f" flood-opacity=".17"/>
+    </filter>
+    <style>
+      .en{font-family:Inter, Arial, sans-serif;fill:#756a5b}
+      .label{font-family:Inter, Arial, sans-serif;font-size:20px;font-weight:750;letter-spacing:.02em;fill:#796d5d}
+      .entry{font-family:"Noto Serif CJK SC","Songti SC","SimSun",serif;font-size:31px;font-weight:700;fill:#2f2b26}
+      .poem{font-family:"Noto Serif CJK SC","Songti SC","SimSun",serif;font-size:24px;fill:#332f2a}
+      .source{font-family:"Noto Serif CJK SC","Songti SC","SimSun",serif;font-size:18px;fill:#837869}
+      .small{font-family:Inter, Arial, sans-serif;font-size:17px;fill:#867b6d}
+      .gold{fill:#f2dfa3;opacity:.78}
+      .green{fill:#d9e8cf;opacity:.88}
+    </style>
+  </defs>
+
+  <rect width="960" height="560" fill="#fbf7ee"/>
+  <rect x="28" y="26" width="904" height="508" rx="28" fill="#fffdf8" stroke="#ede2cf" stroke-width="2"/>
+
+  <text x="480" y="68" text-anchor="middle" class="en" font-size="24" font-weight="750">
+    Computationally identified textual connections
+  </text>
+
+  <text x="216" y="112" text-anchor="middle" class="label">Baishi Liutie</text>
+  <text x="676" y="112" text-anchor="middle" class="label">Bai Juyi’s Poetry</text>
+
+  <g filter="url(#cardShadow)">
+    <rect x="72" y="136" width="282" height="92" rx="17" fill="#fffaf0" stroke="#eadcc6" stroke-width="2"/>
+    <rect x="438" y="136" width="404" height="92" rx="17" fill="#fffaf0" stroke="#eadcc6" stroke-width="2"/>
+
+    <rect x="72" y="252" width="282" height="92" rx="17" fill="#fffaf0" stroke="#eadcc6" stroke-width="2"/>
+    <rect x="438" y="252" width="404" height="92" rx="17" fill="#fffaf0" stroke="#eadcc6" stroke-width="2"/>
+
+    <rect x="72" y="368" width="282" height="92" rx="17" fill="#fffaf0" stroke="#eadcc6" stroke-width="2"/>
+    <rect x="438" y="368" width="404" height="92" rx="17" fill="#fffaf0" stroke="#eadcc6" stroke-width="2"/>
+  </g>
+
+  <rect x="160" y="160" width="80" height="39" rx="8" class="gold"/>
+  <text x="200" y="189" text-anchor="middle" class="entry">清明</text>
+
+  <text x="468" y="174" class="poem">春令有常候，</text>
+  <rect x="626" y="149" width="57" height="32" rx="6" class="gold"/>
+  <text x="626" y="174" class="poem">清明</text>
+  <text x="686" y="174" class="poem">桐始发。</text>
+  <text x="468" y="204" class="source">——《桐花》</text>
+
+  <text x="395" y="191" text-anchor="middle" class="en" font-size="31" font-weight="800" fill="#b99b5d">↔</text>
+
+  <rect x="160" y="276" width="80" height="39" rx="8" class="gold"/>
+  <text x="200" y="305" text-anchor="middle" class="entry">清明</text>
+
+  <text x="468" y="290" class="poem">忽见紫桐花怅望，下邽明日是</text>
+  <rect x="790" y="265" width="57" height="32" rx="6" class="gold"/>
+  <text x="790" y="290" class="poem">清明</text>
+  <text x="468" y="320" class="source">——《寒食江畔》</text>
+
+  <text x="395" y="307" text-anchor="middle" class="en" font-size="31" font-weight="800" fill="#b99b5d">↔</text>
+
+  <rect x="144" y="392" width="112" height="39" rx="8" class="green"/>
+  <text x="200" y="421" text-anchor="middle" class="entry">天垂象</text>
+
+  <text x="468" y="406" class="poem">牛斗</text>
+  <rect x="523" y="381" width="84" height="32" rx="6" class="green"/>
+  <text x="523" y="406" class="poem">天垂象</text>
+  <text x="610" y="406" class="poem">，台明地展图。</text>
+  <text x="468" y="436" class="source">——《和微之春日投简阳明洞天五十韵》</text>
+
+  <text x="395" y="423" text-anchor="middle" class="en" font-size="31" font-weight="800" fill="#b99b5d">↔</text>
+
+  <text x="480" y="505" text-anchor="middle" class="small">
+    An example of textual connections identified through computational matching.
+  </text>
+</svg>

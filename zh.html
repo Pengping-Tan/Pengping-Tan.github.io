@@ -1,151 +1,145 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="zh-CN">
 <head>
-    <meta charset="UTF-8">
-    <title>谭鹏萍</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="谭鹏萍——关注自我理解与人机交互的 HCI 研究者。">
+  <title>谭鹏萍 · Pengping Tan</title>
+  <link rel="stylesheet" href="style.css?v=20260719b">
 </head>
-
 <body>
+  <header class="site-header">
+    <a class="wordmark" href="#top">谭鹏萍</a>
+    <nav aria-label="主导航"><a href="#top">首页</a><a href="#selected-research">代表性研究</a><a href="#publications">论文</a><a href="#journey">研究路径</a></nav>
+    <div class="language-toggle" aria-label="语言切换"><a href="index.html">EN</a><a class="active" href="zh.html" aria-current="page">中文</a></div>
+  </header>
 
-<div class="lang-switch">
-    <a href="index.html">English</a>
-</div>
+  <main id="top">
+    <section class="profile" id="about">
+      <aside class="profile-side">
+        <img class="portrait" src="assets/pengping-tan-square.jpeg" alt="谭鹏萍的个人照片">
+        <div class="contact-list"><p class="eyebrow">联系方式</p><a href="mailto:tanpp5@mail2.sysu.edu.cn" target="_blank" rel="noopener noreferrer"><span>邮箱</span><strong>tanpp5@mail2.sysu.edu.cn</strong></a><a href="https://github.com/Pengping-Tan" target="_blank" rel="noopener noreferrer"><span>GitHub</span><strong>@Pengping-Tan</strong></a><a href="https://xhslink.com/m/71Q3UfZpTLi" target="_blank" rel="noopener noreferrer"><span>小红书</span><strong>26704283277</strong></a><a href="assets/Pengping-Tan-CV.pdf" download target="_blank" rel="noopener noreferrer"><span>个人简历</span><strong>下载 CV PDF</strong></a></div>
+      </aside>
+      <article class="about-copy">
+        <h1>谭鹏萍</h1>
+        <p>你好！我是<strong>谭鹏萍</strong>，中山大学<em>计算机学院计算机技术专业</em>的在读硕士研究生。在此之前，我于中山大学<em>数学学院（珠海）</em>获得<em>信息与计算科学专业</em>的学士学位。</p>
+        <p>我对<strong>人、语言与 AI</strong> 之间的关系很感兴趣：人、语言、AI 之间如何互动、如何互相理解，以及人们如何在这些互动中理解自己。我的研究目前集中在 <strong>HCI</strong>，未来会探索更多 <strong>HCI 与 NLP</strong> 相结合的有关内容。我构建支持<strong>反思与意义建构</strong>的以人为中心的人工智能系统。</p>
+        <p>我喜欢跨学科研究，曾与来自<strong>数学、心理学、文学、计算机科学和人机交互</strong>等领域的研究者合作——也期待未来与更多领域相遇！</p>
+        <p>期待收到你的消息，欢迎与我联系！</p>
+      </article>
+    </section>
 
-<header>
-    <h1>谭鹏萍</h1>
-    <p class="subtitle">
-        中山大学计算机学院硕士研究生
-    </p>
-    <p>
-        我关注 AI 系统如何基于真实的同伴经验与社交媒体内容，
-        支持人的职业探索、意义建构与自我反思。
-    </p>
-</header>
+    <section class="section selected-research" id="selected-research">
+      <header class="section-intro">
+        <h2>代表性研究</h2>
+      </header>
 
-<nav>
-    <a href="#research">研究方向</a>
-    <a href="#projects">项目</a>
-    <a href="#publications">论文</a>
-    <a href="#activities">活动与荣誉</a>
-    <a href="#contact">联系方式</a>
-</nav>
+      <article class="featured-research-card">
+        <div class="research-visual">
+          <img src="assets/jobmate-demo.gif" alt="JobMate 动态演示">
+        </div>
+        <div class="research-copy">
+          <p class="research-meta">HCI · 以人为中心的 AI · 2025–2026</p>
+          <h3>JobMate</h3>
+          <p class="research-subtitle"><strong>基于真实社交媒体同伴经历的 AI 职业探索系统</strong></p>
+          <div class="research-question">如何结合真实的同伴职业经历与 LLM 的个性化对话能力，帮助人们理解他人的路径并反思自身处境？</div>
+          <p><strong>研究方法：</strong>基于 64 份问卷和 8 次访谈，我们设计并构建了 JobMate，将社交媒体职业故事组织为可探索的人物卡片和有来源支撑的对话。随后，我们通过一项包含 24 名参与者的组间混合方法研究，将其与直接浏览小红书进行比较。</p>
+          <p><strong>研究发现：</strong>JobMate 帮助用户将同伴经历与自身处境建立联系，促使他们从向上社会比较转向自我重构与意义建构；真实内容及其语境则为 AI 对话提供了情绪与情境基础。</p>
+          <p class="role"><strong>我的角色：</strong>发起项目；与导师共同完善研究构想和研究设计；负责形成性访谈、数据处理、交互与系统设计、全栈开发、用户研究、数据分析及论文撰写。</p>
+          <p class="research-links"><a href="assets/JobMateview.pdf" target="_blank" rel="noopener noreferrer">📄 论文</a><a href="#">💻 代码</a></p>
+        </div>
+      </article>
 
-<section id="research">
-    <h2>研究方向</h2>
-    <ul>
-        <li>人机交互</li>
-        <li>AI 介导的意义建构与反思</li>
-        <li>社交媒体与职业探索</li>
-        <li>基于真实人类经验的 AI 交互系统</li>
-    </ul>
-</section>
+      <div class="research-grid">
+        <article class="mini-research-card">
+          <img src="assets/research-digital-humanities.svg?v=20260717d" alt="白居易诗歌与《白氏六帖》的计算文本关联研究示意图">
+          <div>
+            <p class="research-meta">数字人文 · 文本比较分析 · 2023–2024</p>
+            <h3>白居易诗歌与《白氏六帖》的计算文本关联研究</h3>
+            <div class="research-question">计算方法如何辅助识别和理解古典文献之间的文本关联？</div>
+            <p>受中文系学者人工研究的启发，我清洗并整理白居易诗歌与《白氏六帖》，使用余弦相似度和字符串匹配识别文本关联，并将自动结果与人工结果进行比较。随后，我通过统计与可视化呈现关联模式，并结合历史背景进行解释。</p>
+            <p>研究展示了自动化文本关联在提升文献处理效率和呈现整体关联模式方面的潜力。</p>
+            <p class="role"><strong>我的角色：</strong>在导师指导下独立完成研究设计、数据处理、方法实现、分析、可视化及论文撰写。</p>
+            <p class="research-links"><a href="#">📄 论文</a><a href="#">💻 代码</a></p>
 
-<section id="projects">
-    <h2>代表项目</h2>
+          </div>
+        </article>
+      </div>
+    </section>
 
-    <div class="project">
-        <h3>JobMate：基于同伴经验的 AI 职业探索系统</h3>
-        <p class="meta">2025.10 – 2026.04</p>
-        <p>
-            JobMate 是一个将小红书上的真实求职经验分享内容转化为可对话 AI 角色的交互系统，
-            旨在帮助年轻求职者从被动浏览转向主动的职业探索与意义建构。
-        </p>
-        <p>
-            <strong>角色：</strong>项目负责人；系统设计；数据收集与处理；提示词设计；
-            用户研究；定性分析；论文写作。
-        </p>
-        <p>
-            <strong>方法：</strong>LLM 数据处理、角色卡构建、自我决定论、原型设计、用户研究。
-        </p>
-        <p>
-            <strong>状态：</strong>论文、代码、视频与网页原型目前未公开。
-        </p>
-    </div>
+    <section class="section publications" id="publications">
+      <header><p class="eyebrow">研究成果</p><h2>论文</h2></header>
+      <div class="publication-list">
+        <article class="publication-card">
+          <img src="assets/jobmate-overview-web.webp" alt="JobMate 系统概览图">
+          <div>
+            <h3>Same Stories, Different Journeys: From Social Comparison to Sensemaking in AI-Mediated Peer Career Exploration</h3>
+            <p class="authors"><a href="#top"><strong>谭鹏萍</strong></a>，<a href="https://baoquanzhao.github.io/" target="_blank" rel="noopener noreferrer">赵宝全</a>，<a href="https://zhenhuipeng.com/" target="_blank" rel="noopener noreferrer">彭振辉</a></p>
+            <p class="venue"><em>Manuscript under revision after UIST submission.</em> 2026.</p>
+            <p class="pub-links"><a href="#">🔗 项目</a><a href="assets/JobMateview.pdf" target="_blank" rel="noopener noreferrer">📄 PDF</a><a href="#">💻 代码</a><a href="#">📝 arXiv</a></p>
+          </div>
+        </article>
+        <article class="publication-card">
+          <img src="assets/stock-paper-teaser.png" alt="股价预测论文系统框架图">
+          <div>
+            <h3>Investor Sentiment Analysis and Stock Price Prediction with Integrated Emojis</h3>
+            <p class="authors"><a href="#top"><strong>谭鹏萍</strong></a>，陈经典，吴睿阳，刘涵</p>
+            <p class="venue"><em>ICFTBA.</em> 2025.</p>
+            <p class="pub-links"><a href="https://aemps.ewapub.com/article/view/28959" target="_blank" rel="noopener noreferrer">🔗 论文</a><a href="https://doi.org/10.54254/2754-1169/2025.GL28959" target="_blank" rel="noopener noreferrer">🪪 DOI</a><a href="#">📄 PDF</a><a href="#">💻 代码</a></p>
+          </div>
+        </article>
+      </div>
+    </section>
 
-    <div class="project">
-        <h3>融合情绪与 Emoji 表征的股价预测研究</h3>
-        <p class="meta">2025.07 – 2025.09</p>
-        <p>
-            该项目基于 StockEmotions 数据集，探究 emoji 情绪编码是否能够提升股价预测效果。
-        </p>
-        <p>
-            <strong>角色：</strong>文献调研；结果分析；论文撰写。
-        </p>
-        <p>
-            <strong>方法：</strong>LSTM、情绪表征、emoji 编码。
-        </p>
-        <p>
-            <strong>结果：</strong>相关论文已发表，代码未公开。
-        </p>
-    </div>
-
-    <div class="project">
-        <h3>基于 LLM 与 ReAct 的 Text-to-Cypher</h3>
-        <p class="meta">2025.03 – 2025.06</p>
-        <p>
-            该项目探索如何将自然语言问题转化为图数据库查询语言 Cypher。
-        </p>
-        <p>
-            <strong>角色：</strong>文献调研；现有工作梳理；基于 LLM 与 ReAct 框架进行实验测试。
-        </p>
-        <p>
-            <strong>方法：</strong>大语言模型、ReAct 框架、语义解析。
-        </p>
-        <p>
-            <strong>发现：</strong>初步效果有限，准确率约为 20%。
-        </p>
-    </div>
-
-    <div class="project">
-        <h3>权力概念的隐喻表征心理学实验复现</h3>
-        <p class="meta">2022.12 – 2023.02</p>
-        <p>
-            该心理学实验探究权力概念与字体大小、颜色之间的隐喻联系。
-        </p>
-        <p>
-            <strong>角色：</strong>实验程序设计；参与部分实验；完成全部数据分析；撰写部分报告。
-        </p>
-        <p>
-            <strong>方法：</strong>Stroop 范式、反应时分析。
-        </p>
-        <p>
-            <strong>结果：</strong>当高权力概念以大号或金色字体呈现、低权力概念以小号或灰色字体呈现时，
-            被试反应时更短。
-        </p>
-    </div>
-</section>
-
-<section id="publications">
-    <h2>论文与手稿</h2>
-    <ul>
-        <li>股价预测相关论文，已发表，2025。</li>
-        <li>
-            <em>Same Stories, Different Journeys: From Social Comparison to Sensemaking
-            in AI-Mediated Peer Career Exploration.</em> 手稿准备中。
+    <section class="section journey" id="journey">
+      <header class="journey-heading">
+        <div>
+          <p class="eyebrow">研究路径</p>
+          <h2>在探索中确定方向</h2>
+        </div>
+        <p>从数学建模开始，转向跨学科合作，探索语言与人工智能。</p>
+      </header>
+      <ol class="timeline">
+        <li class="current">
+          <div class="date"><span>2025&ndash;2026</span><em>现在</em></div>
+          <div class="timeline-marker" aria-hidden="true"></div>
+          <article>
+            <h3>以人为本的AI</h3>
+            <p>我的关注点转向AI帮助人的现实场景中。在此前计算、系统构建和跨学科合作的基础上，我发起了 JobMate，探索 AI 如何帮助人们理解真实的同伴经历，并在职业不确定性中反思自身处境。</p>
+            <p class="tags"><span>人机交互</span><span>LLM</span><span>意义构建</span></p>
+          </article>
         </li>
-    </ul>
-</section>
+        <li>
+          <div class="date"><span>2024&ndash;2025</span></div>
+          <div class="timeline-marker" aria-hidden="true"></div>
+          <article>
+            <h3>神经网络与LLM</h3>
+            <p>我开始深入理解人工智能与自然语言处理：为组合优化扩散模型推导损失函数，调研并测试 Text-to-Cypher 的 ReAct baseline，并在哥伦比亚大学教授指导的暑期研究项目中负责研究规划与团队协调，小组合作完成了第一篇论文的发表。</p>
+            <p class="tags"><span>NLP</span><span>LLM Agents</span><span>深度学习</span></p>
+          </article>
+        </li>
+        <li>
+          <div class="date"><span>2022&ndash;2024</span></div>
+          <div class="timeline-marker" aria-hidden="true"></div>
+          <article>
+            <h3>计算与人文</h3>
+            <p>我开始探索计算技术如何参与人文学科研究。与中文系同学合作构建宋代人物关系图数据库，与中文系学者合作完成了白居易诗歌与《白氏六帖》的计算文本关联研究，使用文本匹配、统计分析和可视化为传统文献研究提供补充视角。</p>
+            <p class="tags"><span>数字人文</span><span>文本分析</span><span>知识图谱</span></p>
+          </article>
+        </li>
+        <li>
+          <div class="date"><span>2021&ndash;2022</span></div>
+          <div class="timeline-marker" aria-hidden="true"></div>
+          <article>
+            <h3>从数学建模开始</h3>
+            <p>数学建模是我最早将数学方法用于现实问题的尝试。我使用回归、优化、时间序列模型和投资组合理论处理应用问题；辅修心理学让我第一次接触实验设计、数据分析以及对人类行为的实证研究。</p>
+            <p class="tags"><span>数学建模</span><span>数据分析</span><span>心理学实验</span></p>
+          </article>
+        </li>
+      </ol>
+    </section>
+  </main>
 
-<section id="activities">
-    <h2>活动与荣誉</h2>
-    <ul>
-        <li>古诗诗社社长</li>
-        <li>跨年诗会组织者</li>
-        <li>Savvy Club 口才俱乐部，萨维之星</li>
-        <li>中山大学奖学金，2021–2025</li>
-    </ul>
-</section>
-
-<section id="contact">
-    <h2>联系方式</h2>
-    <p>Email: your@email.com</p>
-    <p>GitHub: BanchiLin</p>
-</section>
-
-<footer>
-    <p>© 2026 谭鹏萍</p>
-</footer>
-
+  <footer><p>欢迎与我联系！</p><p><a href="mailto:tanpp5@mail2.sysu.edu.cn" target="_blank" rel="noopener noreferrer">邮箱</a> · <a href="https://github.com/Pengping-Tan" target="_blank" rel="noopener noreferrer">GitHub</a> · <a href="https://xhslink.com/m/71Q3UfZpTLi" target="_blank" rel="noopener noreferrer">小红书</a> · <a href="assets/Pengping-Tan-CV.pdf" download target="_blank" rel="noopener noreferrer">CV</a></p><small>© 2026 谭鹏萍 · Pengping Tan</small></footer>
 </body>
 </html>

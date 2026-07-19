@@ -1,160 +1,150 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Pengping Tan</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Pengping Tan — HCI researcher studying self-understanding and human–AI interaction.">
+  <title>Pengping Tan</title>
+  <link rel="stylesheet" href="style.css?v=20260719b">
 </head>
-
 <body>
+  <header class="site-header">
+    <a class="wordmark" href="#top">Pengping Tan</a>
+    <nav aria-label="Main navigation"><a href="#top">Home</a><a href="#selected-research">Selected Research</a><a href="#publications">Publications</a><a href="#journey">Journey</a></nav>
+    <div class="language-toggle" aria-label="Language switcher"><a class="active" href="index.html" aria-current="page">EN</a><a href="zh.html">中文</a></div>
+  </header>
 
-<div class="lang-switch">
-    <a href="zh.html">中文</a>
-</div>
+  <main id="top">
+    <section class="profile" id="about">
+      <aside class="profile-side">
+        <img class="portrait" src="assets/pengping-tan-square.jpeg" alt="Portrait of Pengping Tan">
+        <div class="contact-list">
+          <a href="mailto:tanpp5@mail2.sysu.edu.cn" target="_blank" rel="noopener noreferrer"><span>Email</span><strong>tanpp5@mail2.sysu.edu.cn</strong></a>
+          <a href="https://github.com/Pengping-Tan" target="_blank" rel="noopener noreferrer"><span>GitHub</span><strong>@Pengping-Tan</strong></a>
+          <a href="https://xhslink.com/m/71Q3UfZpTLi" target="_blank" rel="noopener noreferrer"><span>RED / Xiaohongshu</span><strong>26704283277 </strong></a>
+          <a href="assets/Pengping-Tan-CV.pdf" download target="_blank" rel="noopener noreferrer"><span>Curriculum Vitae</span><strong>Download CV PDF </strong></a>
+        </div>
+      </aside>
 
-<header>
-    <h1>Pengping Tan</h1>
-    <p class="subtitle">
-        Master's Student in Computer Science, Sun Yat-sen University
-    </p>
-    <p>
-        I study how AI-mediated systems support career exploration, sensemaking,
-        and reflection through authentic peer experiences and social media interactions.
-    </p>
-</header>
+      <article class="about-copy">
+        <h1>Pengping Tan</h1>
+        <p>Hi! I am a master’s student in the <em>School of Computer Science and Engineering, Sun Yat-sen University</em>. Previously, I received my B.S. in <em>Information and Computing Science</em> from the <em>School of Mathematics (Zhuhai), Sun Yat-sen University</em>.</p>
+        <p>I am interested in how <strong>people, language, and AI</strong> interact and shape one another, how understanding emerges through these interactions, and how people come to understand themselves in the process. My current work focuses on <strong>Human–Computer Interaction (HCI)</strong>, where I build human-centered AI systems that support <strong>reflection and sensemaking</strong>. Moving forward, I hope to further explore the intersection of <strong>HCI and NLP</strong>.</p>
+        <p>I enjoy interdisciplinary research and have collaborated with researchers across <strong>mathematics, psychology, literature, computer science, and HCI</strong>—and hopefully many more to come!</p>
+        <p>I’d love to hear from you! Please reach out!</p>
+      </article>
+    </section>
 
-<nav>
-    <a href="#research">Research</a>
-    <a href="#projects">Projects</a>
-    <a href="#publications">Publications</a>
-    <a href="#activities">Activities</a>
-    <a href="#contact">Contact</a>
-</nav>
+    <section class="section selected-research" id="selected-research">
+      <header class="section-intro">
+        <h2>Selected Research</h2>
+      </header>
 
-<section id="research">
-    <h2>Research Interests</h2>
-    <ul>
-        <li>Human-Computer Interaction</li>
-        <li>AI-mediated sensemaking and reflection</li>
-        <li>Social media and career exploration</li>
-        <li>AI systems grounded in authentic human experiences</li>
-    </ul>
-</section>
+      <article class="featured-research-card">
+        <div class="research-visual">
+          <img src="assets/jobmate-demo.gif" alt="Animated demo of JobMate">
+        </div>
+        <div class="research-copy">
+          <p class="research-meta">HCI · Human-Centered AI · 2025–2026</p>
+          <h3>JobMate</h3>
+          <p class="research-subtitle">An AI career exploration system grounded in authentic social media peer experiences</p>
+          <div class="research-question">How can authentic peer career experiences and LLM-powered personalized dialogue help people understand others' paths and reflect on their own situations?</div>
+          <p><strong>Approach.</strong> Based on 64 survey responses and 8 interviews, we designed and built JobMate, organizing social media career stories into explorable persona cards and source-grounded conversations. We then conducted a between-subjects mixed-methods study with 24 participants, comparing JobMate with directly browsing Xiaohongshu.</p>
+          <p><strong>Key finding.</strong> JobMate helped users connect peer experiences with their own situations, prompting a shift from upward social comparison toward self-reframing and sensemaking; authentic content and context provided emotional and contextual grounding for AI dialogue.</p>
+          <p class="role"><strong>My role:</strong> I initiated the project; worked with my advisor to refine the research idea and study design; and led formative interviews, data processing, interaction and system design, full-stack development, user research, data analysis, and paper writing.</p>
+          <p class="research-links"><a href="assets/JobMateview.pdf" target="_blank" rel="noopener noreferrer">Paper</a><a href="#">Code</a></p>
+        </div>
+      </article>
 
-<section id="projects">
-    <h2>Selected Projects</h2>
+      <div class="research-grid">
+        <article class="mini-research-card">
+          <img src="assets/research-digital-humanities.svg?v=20260717d" alt="Computational textual linkage between Bai Juyi poems and Baishi Liutie">
+          <div>
+            <p class="research-meta">Digital Humanities · Comparative Text Analysis · 2023–2024</p>
+            <h3>Computational Textual Linkage between Bai Juyi’s Poetry and <em>Baishi Liutie</em></h3>
+            <div class="research-question">How can computational methods help identify and interpret textual connections between classical Chinese texts?</div>
+            <p>Inspired by manual work by a Chinese literature scholar, I cleaned and organized Bai Juyi's poems and <em>Baishi Liutie</em>, used cosine similarity and string matching to identify textual connections, and compared the computational results with manually identified ones. I then used statistics and visualization to present patterns of association and interpreted them in relation to historical context.</p>
+            <p>The project shows the potential of automated textual linkage to improve the efficiency of classical-text processing and reveal broader patterns of association.</p>
+            <p class="role"><strong>My role:</strong> Under advisor guidance, I independently completed the research design, data processing, method implementation, analysis, visualization, and thesis writing.</p>
+            <p class="research-links"><a href="#">Paper</a><a href="#">Code</a></p>
+          </div>
+        </article>
+      </div>
+    </section>
 
-    <div class="project">
-        <h3>JobMate: AI-Mediated Career Exploration through Peer Experiences</h3>
-        <p class="meta">Oct 2025 – Apr 2026</p>
-        <p>
-            JobMate is an interactive system that transforms authentic career-related
-            posts from Xiaohongshu into persona-grounded conversational agents,
-            helping young job seekers move from passive browsing to active career sensemaking.
-        </p>
-        <p>
-            <strong>Role:</strong> Project lead; system design; data collection and processing;
-            prompt design; user study; qualitative analysis; writing.
-        </p>
-        <p>
-            <strong>Methods:</strong> LLM-based data processing, persona construction,
-            self-determination theory, prototype design, user study.
-        </p>
-        <p>
-            <strong>Status:</strong> Paper, code, video, and web prototype available internally.
-        </p>
-    </div>
+    <section class="section publications" id="publications">
+      <header><p class="eyebrow">Research Outputs</p><h2>Publications</h2></header>
+      <div class="publication-list">
+        <article class="publication-card">
+          <img src="assets/jobmate-overview-web.webp" alt="Overview of JobMate">
+          <div>
+            <h3>Same Stories, Different Journeys: From Social Comparison to Sensemaking in AI-Mediated Peer Career Exploration</h3>
+            <p class="authors"><a href="#top"><strong>Pengping Tan</strong></a>, <a href="https://baoquanzhao.github.io/" target="_blank" rel="noopener noreferrer">Baoquan Zhao</a>, <a href="https://zhenhuipeng.com/" target="_blank" rel="noopener noreferrer">Zhenhui Peng</a></p>
+            <p class="venue"><em>Manuscript under revision after UIST submission.</em> 2026.</p>
+            <p class="pub-links"><a href="#">🔗 Project</a><a href="assets/JobMateview.pdf" target="_blank" rel="noopener noreferrer">📄 PDF</a><a href="#">💻 Code</a><a href="#">📝 arXiv</a></p>
+          </div>
+        </article>
+        <article class="publication-card">
+          <img src="assets/stock-paper-teaser.png" alt="System overview for stock prediction paper">
+          <div>
+            <h3>Investor Sentiment Analysis and Stock Price Prediction with Integrated Emojis</h3>
+            <p class="authors"><a href="#top"><strong>Pengping Tan</strong></a>, Jingdian Chen, Ruiyang Wu, Han Liu</p>
+            <p class="venue"><em>ICFTBA.</em> 2025.</p>
+            <p class="pub-links"><a href="https://aemps.ewapub.com/article/view/28959" target="_blank" rel="noopener noreferrer">🔗 Paper</a><a href="https://doi.org/10.54254/2754-1169/2025.GL28959" target="_blank" rel="noopener noreferrer">🪪 DOI</a><a href="#">📄 PDF</a><a href="#">💻 Code</a></p>
+          </div>
+        </article>
+      </div>
+    </section>
 
-    <div class="project">
-        <h3>Stock Prediction with Emotion and Emoji Representations</h3>
-        <p class="meta">Jul 2025 – Sep 2025</p>
-        <p>
-            This project investigated whether emoji-based emotional representations
-            can improve stock prediction performance on the StockEmotions dataset.
-        </p>
-        <p>
-            <strong>Role:</strong> Literature review; result analysis; paper writing.
-        </p>
-        <p>
-            <strong>Methods:</strong> LSTM, emotion representation, emoji encoding.
-        </p>
-        <p>
-            <strong>Outcome:</strong> Published paper. Code not publicly available.
-        </p>
-    </div>
-
-    <div class="project">
-        <h3>Text-to-Cypher with LLMs and ReAct</h3>
-        <p class="meta">Mar 2025 – Jun 2025</p>
-        <p>
-            This project explored how large language models convert natural language
-            questions into Cypher queries for graph databases.
-        </p>
-        <p>
-            <strong>Role:</strong> Literature review; review of existing approaches;
-            experimental evaluation with LLMs and ReAct.
-        </p>
-        <p>
-            <strong>Methods:</strong> Large language models, ReAct framework, semantic parsing.
-        </p>
-        <p>
-            <strong>Finding:</strong> Initial results were limited, with accuracy around 20%.
-        </p>
-    </div>
-
-    <div class="project">
-        <h3>Metaphorical Representation of Power Concepts</h3>
-        <p class="meta">Dec 2022 – Feb 2023</p>
-        <p>
-            This psychology experiment examined how power concepts are metaphorically
-            associated with font size and color in a Chinese cultural context.
-        </p>
-        <p>
-            <strong>Role:</strong> Experimental program design; partial experiment execution;
-            full data analysis; report writing.
-        </p>
-        <p>
-            <strong>Methods:</strong> Stroop paradigm, reaction time analysis.
-        </p>
-        <p>
-            <strong>Finding:</strong> Participants responded faster when high-power concepts
-            appeared in large or golden fonts, and low-power concepts appeared in small or gray fonts.
-        </p>
-    </div>
-</section>
-
-<section id="publications">
-    <h2>Publications & Manuscripts</h2>
-    <ul>
-        <li>
-            Stock prediction paper. Published, 2025.
+    <section class="section journey" id="journey">
+      <header class="journey-heading">
+        <div>
+          <p class="eyebrow">Research Journey</p>
+          <h2>Finding My Direction Through Exploration</h2>
+        </div>
+        <p>Starting from mathematical modeling, moving toward interdisciplinary collaboration, and exploring language and artificial intelligence.</p>
+      </header>
+      <ol class="timeline">
+        <li class="current">
+          <div class="date"><span>2025&ndash;2026</span><em>Now</em></div>
+          <div class="timeline-marker" aria-hidden="true"></div>
+          <article>
+            <h3>Human-Centered AI</h3>
+            <p>My attention has shifted toward real-world situations where AI can help people. Building on prior experience in computation, system building, and interdisciplinary collaboration, I initiated JobMate to explore how AI can help people understand authentic peer experiences and reflect on their own situations amid career uncertainty.</p>
+            <p class="tags"><span>HCI</span><span>LLM</span><span>Sensemaking</span></p>
+          </article>
         </li>
         <li>
-            <em>Same Stories, Different Journeys: From Social Comparison to Sensemaking
-            in AI-Mediated Peer Career Exploration.</em> Manuscript in preparation.
+          <div class="date"><span>2024&ndash;2025</span></div>
+          <div class="timeline-marker" aria-hidden="true"></div>
+          <article>
+            <h3>Neural Networks and LLMs</h3>
+            <p>I began developing a deeper understanding of artificial intelligence and natural language processing: deriving loss functions for diffusion models in combinatorial optimization, surveying and testing a ReAct baseline for Text-to-Cypher, and coordinating research planning in a summer research project advised by a Columbia University professor. Through this team project, we published my first paper.</p>
+            <p class="tags"><span>NLP</span><span>LLM Agents</span><span>Deep Learning</span></p>
+          </article>
         </li>
-    </ul>
-</section>
+        <li>
+          <div class="date"><span>2022&ndash;2024</span></div>
+          <div class="timeline-marker" aria-hidden="true"></div>
+          <article>
+            <h3>Computing and the Humanities</h3>
+            <p>I began exploring how computational methods can contribute to humanities research. After working with Chinese literature students to build a graph database of Song-dynasty figures, I collaborated with a Chinese literature scholar on a computational textual-linkage study between Bai Juyi's poetry and <em>Baishi Liutie</em>, using text matching, statistical analysis, and visualization to provide a complementary perspective on classical literary research.</p>
+            <p class="tags"><span>Digital Humanities</span><span>Text Analysis</span><span>Knowledge Graphs</span></p>
+          </article>
+        </li>
+        <li>
+          <div class="date"><span>2021&ndash;2022</span></div>
+          <div class="timeline-marker" aria-hidden="true"></div>
+          <article>
+            <h3>Starting from Mathematical Modeling</h3>
+            <p>Mathematical modeling was my earliest attempt to apply mathematical methods to real-world problems. I worked with regression, optimization, time-series models, and portfolio theory; my minor in psychology introduced me to experimental design, data analysis, and empirical research on human behavior.</p>
+            <p class="tags"><span>Mathematical Modeling</span><span>Data Analysis</span><span>Psychology Experiments</span></p>
+          </article>
+        </li>
+      </ol>
+    </section>
+  </main>
 
-<section id="activities">
-    <h2>Activities & Honors</h2>
-    <ul>
-        <li>President, Classical Poetry Society</li>
-        <li>Organizer, New Year Poetry Event</li>
-        <li>Savvy Club Public Speaking, Star Award</li>
-        <li>Sun Yat-sen University Scholarship, 2021–2025</li>
-    </ul>
-</section>
-
-<section id="contact">
-    <h2>Contact</h2>
-    <p>Email: your@email.com</p>
-    <p>GitHub: BanchiLin</p>
-</section>
-
-<footer>
-    <p>© 2026 Pengping Tan</p>
-</footer>
-
+  <footer><p>Please feel free to reach out!</p><p><a href="mailto:tanpp5@mail2.sysu.edu.cn" target="_blank" rel="noopener noreferrer">Email</a> · <a href="https://github.com/Pengping-Tan" target="_blank" rel="noopener noreferrer">GitHub</a> · <a href="https://xhslink.com/m/71Q3UfZpTLi" target="_blank" rel="noopener noreferrer">Xiaohongshu</a> · <a href="assets/Pengping-Tan-CV.pdf" download target="_blank" rel="noopener noreferrer">CV</a></p><small>© 2026 Pengping Tan</small></footer>
 </body>
 </html>
